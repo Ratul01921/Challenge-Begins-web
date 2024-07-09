@@ -256,7 +256,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.web-dev-solution-section button{
+.web-dev-solution-section  button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -327,4 +327,114 @@
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 
+}
+/* my current target section start here */
+.target-section-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+}
+.target-section-content{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.target-section-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target-section-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target-section-card-content{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+
+    border: 40px solid rgba(244, 67, 22, 0.05);
+
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+
+    border: 40px solid rgba(0, 76, 232, 0.05);
+
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+
+    border: 40px solid rgba(255, 223, 0, 0.05);
+
+    background: rgba(255, 223, 0, 0.05);
+}
+.card{
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    margin: 0 auto;  
+    gap: 10px;
+
+}
+.card h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+.card p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;   
+}
+.card button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    text-decoration-line: underline;   
 }
