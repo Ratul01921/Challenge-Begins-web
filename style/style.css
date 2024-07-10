@@ -92,7 +92,13 @@
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
 
-    background: rgb(13, 19, 33);   
+    background: rgb(13, 19, 33); 
+
+}
+.banner-content button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+
 }
 /* why-web-dev-container section start */
 .why-web-dev-container{
