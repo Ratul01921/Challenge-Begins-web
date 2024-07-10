@@ -6,6 +6,25 @@
     margin: 0;
     padding: 0;
 }
+/* share code section */
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FEEDE9;
+  }
+  
+  .button2:hover {
+    background-color: #FEEDE9;
+    color: black;
+  }
 
 /* hero section start here */
 .hero-container{
@@ -24,12 +43,12 @@
 
 }
 .hero-container button{
-    color: rgb(13, 19, 33);
+    /* color: rgb(13, 19, 33); */
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
+    /* border: 1px solid rgb(13, 19, 33); */
     border-radius: 8px;
     
     opacity: 0.8;
@@ -189,6 +208,9 @@
     padding: 12px 20px 12px 20px;
     
 }
+.web-dev-coding-section a{
+    text-decoration: none;
+}
 .web-dev-modern-section {
     width: 850px;
     height: 240px;
@@ -234,6 +256,9 @@
     padding: 12px 20px 12px 20px;
     
 }
+.web-dev-modern-section a{
+    text-decoration: none;
+}
 .web-dev-solution-section{
     width: 850px;
     height: 240px;
@@ -278,6 +303,9 @@
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     
+}
+.web-dev-solution-section a{
+    text-decoration: none;
 }
 /* My Inspiration section start here */
 .inspiration-section-container{
